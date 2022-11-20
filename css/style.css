@@ -1,0 +1,192 @@
+@charset "UTF-8"; /* 文字コードの指定 */
+
+body {
+  background-color: #F4F9FF;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  padding-top: 60px;
+  width: 160px;
+}
+
+#main_visual {
+  padding-top: 15px;
+}
+
+#main_visual img {
+  max-width: 100%;
+}
+
+#index {
+  margin-top: 60px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.index_container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.index_container h2 {
+  padding-top: 30px;
+  font-family:"Meiryo";
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+}
+
+.index_container ol {
+  margin-top: 10px;
+}
+
+.index_container ol li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+#detail {
+  padding-top: 60px;
+  padding-bottom: 115px;
+}
+
+.detail_container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.detail_header {
+  font-family:"Meiryo";
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+}
+
+.detail_wrapper img {
+  margin-top: 10px;
+  width: 270px;
+}
+
+.detail_content {
+  margin-left: 60px;
+}
+
+.detail_content h3 {
+  font-family:"Meiryo";
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+  padding-bottom: 20px;
+  margin-bottom: 16px;
+  border-bottom: solid 1px #DEDEDE;
+}
+
+.detail_bookInfomation_wrapper {
+  padding-bottom: 20px;
+  margin-bottom: 21px;
+  border-bottom: solid 1px #DEDEDE;
+  justify-content: start;
+}
+
+.detail_infomation_title h4 {
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+.detail_infomation_contents {
+  margin-left: 23px;
+}
+
+.detail_infomation_contents p {
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+.detail_paragraph {
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.detail_link {
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+.footer_container {
+  width: 600px;
+  margin: 0 auto 15px;
+}
+
+.footer_container p {
+  font-family:"Meiryo";
+  font-weight: 400;
+  font-size: 10px;
+  color: #333333;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  html {
+    font-size: calc(10 / 375 * 100vw);
+  }
+  
+  header {
+    padding:0 10px;
+  }
+  
+  #main_visual {
+    padding:0 10px;
+  }
+  
+  .index_container {
+    padding: 0 40px;
+  }
+  
+  .detail_container {
+    width: 78.67%;
+    max-width: 600px;
+  }
+  
+  .detail_wrapper {
+    display: block;
+  }
+  
+  .detail_wrapper img {
+    width: 100%;
+  }
+  
+  .detail_content {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  
+  .footer_container {
+    width: 78.67%;
+    max-width: 600px;
+  }
+  
+}
